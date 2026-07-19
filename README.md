@@ -33,7 +33,7 @@ care-transition-analytics/
 ## Run Locally
 
 ```powershell
-cd C:\Users\Lenovo\OneDrive\Documents\U.S\care-transition-analytics
+cd care-transition-analytics
 python -m pip install -r requirements.txt
 streamlit run app.py
 ```
@@ -41,7 +41,7 @@ streamlit run app.py
 In this Codex environment, the bundled Python runtime can run the app directly:
 
 ```powershell
-& "C:\Users\Lenovo\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe" -m streamlit run app.py
+ -m streamlit run app.py
 ```
 
 ## Dashboard Modules
